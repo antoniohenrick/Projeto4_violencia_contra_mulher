@@ -3,6 +3,7 @@ from flet import (Text, Page,Row, Container, Column, LinearGradient, Icon, Dropd
 ButtonStyle, icons, animation, column, Alignment,alignment, RadialGradient, View, BottomSheet)
 
 def pagina():
+    #Tem que ter cuidado com as besteiras que eu escrevi
     #Algumas funções precisam ser definidas aqui, antes de entrar no escopo do view
     #Ações ao clicar os botões do bottomsheet
     def abrir_janela(e):
