@@ -90,9 +90,9 @@ def pagina():
             border = "underline",
             text_size= 15,
             options = [ ft.dropdown.Option("De forma geral, você acha que as mulheres são tratadas com respeito no Brasil?"),
-                        ft.dropdown.Option("Para você, nos últimos doze meses, a violência doméstica e familiar contra as mulheres:"),
+                        ft.dropdown.Option("Em sua opinião, nos últimos doze meses, como a violência doméstica e familiar se comportou?"),
                         ft.dropdown.Option("Onde você acha que as mulheres são menos respeitadas?"),
-                        ft.dropdown.Option("O que leva uma mulher a não denunciar a agressão")]       
+                        ft.dropdown.Option("O que leva uma mulher a não denunciar a agressão?")]       
             )
     tema2 = Dropdown(
             hint_text = "A violência vivida/testemunhada",
@@ -108,8 +108,8 @@ def pagina():
                 ft.dropdown.Option("Quem foi o agressor?"),
                 ft.dropdown.Option("Qual foi sua atitude em relação à última agressão?"),
                 ft.dropdown.Option("O que motivou a violência?"),
-                ft.dropdown.Option("Você sofre violência:"),
-                ft.dropdown.Option("E qual foi o tipo de violência sofrida?")
+                ft.dropdown.Option("Com qual frequência você sofre violência?"),
+                ft.dropdown.Option("Qual foi o tipo de violência sofrida?")
                 ],
             )
     tema3 = Dropdown(
@@ -121,8 +121,8 @@ def pagina():
                 ft.dropdown.Option("Como você avalia o atendimento recebido na delegacia?"),
                 ft.dropdown.Option("Em sua opinião, as mulheres que sofrem agressão costumam denunciar o fato \nàs autoridades?"),
                 ft.dropdown.Option("Por causa dessa violência, você buscou algum tipo de assistência de saúde?"),
-                ft.dropdown.Option("Você conhece ou já ouviu falar dos serviços de proteção à mulher prestados:"),
-                ft.dropdown.Option("Você procurou ajuda quando foi agredida na:")
+                ft.dropdown.Option("Quais dos serviços de proteção à mulher prestados você conhece?"),
+                ft.dropdown.Option("Após quantas ocorrências você procurou ajuda?")
                 ],
             )
     tema4 = Dropdown(
@@ -134,7 +134,7 @@ def pagina():
                 ft.dropdown.Option("As leis brasileiras protegem as mulheres contra abusos e violências domésticas?"),
                 ft.dropdown.Option("Você lembra de ter visto ou ouvido alguma campanha veiculada na mídia contra \n a violência às mulheres?"),
                 ft.dropdown.Option("Já ouviu falar da Lei Maria da Penha?"),
-                ft.dropdown.Option("Depois da Lei Maria da Penha, a proteção da mulher está:"),
+                ft.dropdown.Option("Depois da Lei Maria da Penha, qual a situação da proteção da mulher?"),
                 ft.dropdown.Option("Na sua opinião, o agressor deve ou não deve ser processado mesmo \n contra a vontade da vítima?"),
                 ft.dropdown.Option("Você acha que a Lei Maria da Penha protege as mulheres contra a \n violência doméstica e familiar?"),
                 ft.dropdown.Option("Quanto você conhece sobre a Lei Maria da Penha:"),
@@ -146,10 +146,10 @@ def pagina():
             border = "underline",
             text_size= 15,
             options=[
-                ft.dropdown.Option("De forma geral, você considera o Brasil um país:"),
+                ft.dropdown.Option("Quão machista você considera o Brasil?"),
                 ft.dropdown.Option("O que você acha que a sociedade pode fazer para diminuir ou evitar a violência \n doméstica e familiar contra a mulher?"),
                 ft.dropdown.Option("Em sua opinião, quem pode denunciar um ato de agressão física cometido contra uma \n mulher em seu ambiente familiar?"),
-                ft.dropdown.Option("Se você presenciasse um ato de agressão contra uma mulher, você denunciaria:")
+                ft.dropdown.Option("Se você presenciasse um ato de agressão contra uma mulher, você denunciaria?")
                 ],
             )
 
