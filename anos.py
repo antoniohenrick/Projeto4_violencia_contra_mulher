@@ -18,7 +18,7 @@ def dpa01_01():
             ft.dropdown.Option("2011"), 
             ft.dropdown.Option("2013"), 
             ft.dropdown.Option("2015"), 
-            ft.dropdown.Option("2017"), 
+            #ft.dropdown.Option("2017"), ##Falta dados
             ft.dropdown.Option("2019"), 
             ft.dropdown.Option("2021")]
         )
@@ -96,7 +96,7 @@ def dpa02_01():
             ft.dropdown.Option("2007"), 
             #ft.dropdown.Option("2009"), ##Falta dados
             ft.dropdown.Option("2011"), 
-            ft.dropdown.Option("2013"), 
+            #ft.dropdown.Option("2013"), ##Falta dados
             ft.dropdown.Option("2015"), 
             ft.dropdown.Option("2017"), 
             ft.dropdown.Option("2019"), 
@@ -418,7 +418,7 @@ def dpa04_04():
             text_size= 12,
             options = [
             ft.dropdown.Option("2011"), 
-            ft.dropdown.Option("2013"), 
+            #ft.dropdown.Option("2013"), ##Falta dados
             ft.dropdown.Option("2015")]
         )
     return anos
@@ -433,7 +433,8 @@ def dpa04_05():
             text_size= 12,
             options = [ 
             ft.dropdown.Option("2013"), 
-            ft.dropdown.Option("2017")]
+            #ft.dropdown.Option("2017")
+            ]
         )
     return anos
 
@@ -446,7 +447,7 @@ def dpa04_06():
             border = "underline",
             text_size= 12,
             options = [ 
-            ft.dropdown.Option("2017"), 
+            #ft.dropdown.Option("2017"), 
             ft.dropdown.Option("2019"), 
             ft.dropdown.Option("2021")]
         )
@@ -461,7 +462,7 @@ def dpa04_07():
             border = "underline",
             text_size= 12,
             options = [ 
-            ft.dropdown.Option("2017"), 
+            #ft.dropdown.Option("2017"), 
             ft.dropdown.Option("2019"), 
             ft.dropdown.Option("2021")]
         )
