@@ -1,6 +1,8 @@
 import flet as ft
 from flet import Dropdown
 
+#opções de esolha de ano para cada pergunta
+
 ### TEMA 1###
 
 #01
