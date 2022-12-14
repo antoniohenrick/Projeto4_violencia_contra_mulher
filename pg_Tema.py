@@ -144,6 +144,7 @@ def pagina():
     #03
     def t1p03(e):
         bs_t1p03.open = True
+        grafico = grafico2007_P4(dado2007_P4()) #2007
         bs_t1p03.update()
 
 
@@ -327,6 +328,7 @@ def pagina():
     #03
     def t2p03(e):
         bs_t2p03.open = True
+        grafico = grafico2007_P11(dado2007_P11()) #2007
         bs_t2p03.update()
 
     bs_t2p03 = ft.BottomSheet(
@@ -459,7 +461,7 @@ def pagina():
     #06
     def t2p06(e):
         bs_t2p06.open = True
-        grafico = dados2005_p16.grafico() #2005
+        grafico = grafico = dados2005_p16.grafico() #2005
         bs_t2p06.update()
 
     bs_t2p06 = ft.BottomSheet(
@@ -504,7 +506,7 @@ def pagina():
     #07
     def t2p07(e):
         bs_t2p07.open = True
-        grafico = grafico2005_P17(dado2005_P17()) #2005 
+        grafico = grafico = grafico2005_P17(dado2005_P17()) #2005 
         bs_t2p07.update()
 
     bs_t2p07 = ft.BottomSheet(
@@ -549,6 +551,7 @@ def pagina():
     #08
     def t2p08(e):
         bs_t2p08.open = True
+        grafico = grafico2007_P8(dado2007_P8()) #2007
         bs_t2p08.update()
 
     bs_t2p08 = ft.BottomSheet(
@@ -593,6 +596,7 @@ def pagina():
     #09
     def t2p09(e):
         bs_t2p09.open = True
+        grafico = grafico2007_P12(dado2007_P12()) #2007
         bs_t2p09.update()
 
     bs_t2p09 = ft.BottomSheet(
@@ -952,6 +956,7 @@ def pagina():
     #02
     def t4p02(e):
         bs_t4p02.open = True
+        grafico = grafico2007_P17(dado2007_P17()) #2007
         bs_t4p02.update()
 
     bs_t4p02 = ft.BottomSheet(
@@ -1262,6 +1267,7 @@ def pagina():
     #02
     def t5p02(e):
         bs_t5p02.open = True
+        grafico = grafico2007_P16(dado2007_P16()) #2007
         bs_t5p02.update()
 
     bs_t5p02 = ft.BottomSheet(
