@@ -1,8 +1,8 @@
 import flet as ft
 from flet import Page
 
-from paginas.pg_inicial import pagina as v1
-from paginas.pg_Tema import pagina as v2
+from pg_inicial import pagina as v1
+from pg_Tema import pagina as v2
 
 
 def main(page: Page):
@@ -11,9 +11,6 @@ def main(page: Page):
     Função básica de criação flet
 
     '''
-    #Permitir o scroll da página
-    page.scroll = "always" #não tá funcionando
-
     #Título da janela
     page.title = "Projeto 4" 
 
