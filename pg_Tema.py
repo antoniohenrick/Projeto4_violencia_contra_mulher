@@ -53,6 +53,7 @@ def pagina():
         '''
         bs_t1p01.open = True
         grafico = dados2005_p1.grafico() #2005
+        #grafico = grafico2007_P3(dado2007_P3()) #2007
         bs_t1p01.update()
 
     
@@ -86,8 +87,7 @@ def pagina():
                         controls = [
                             Container(
                                 ft.FilledButton(text = "Download", on_click=download),
-                                #plt.savefig('imagem do grafico tal.png', bbox_inches='tight')
-                                #plt.show()
+
                                 margin=20
                             )
                         ]
@@ -131,8 +131,7 @@ def pagina():
                         controls = [
                             Container(
                                 ft.FilledButton(text = "Download", on_click=download),
-                                #plt.savefig('imagem do grafico tal.png', bbox_inches='tight')
-                                #plt.show()
+
                                 margin=20
                             )
                         ]
@@ -177,8 +176,7 @@ def pagina():
                         controls = [
                             Container(
                                 ft.FilledButton(text = "Download", on_click=download),
-                                #plt.savefig('imagem do grafico tal.png', bbox_inches='tight')
-                                #plt.show()
+
                                 margin=20
                             )
                         ]
@@ -222,8 +220,7 @@ def pagina():
                         controls = [
                             Container(
                                 ft.FilledButton(text = "Download", on_click=download),
-                                #plt.savefig('imagem do grafico tal.png', bbox_inches='tight')
-                                #plt.show()
+
                                 margin=20
                             )
                         ]
@@ -239,6 +236,7 @@ def pagina():
     def t2p01(e):
         bs_t2p01.open = True
         grafico = dados2005_p12.grafico() #2005
+        #grafico = grafico2007_P14(dado2007_P14()) #2007        
         bs_t2p01.update()
 
     bs_t2p01 = ft.BottomSheet(
@@ -270,8 +268,7 @@ def pagina():
                         controls = [
                             Container(
                                 ft.FilledButton(text = "Download", on_click=download),
-                                #plt.savefig('imagem do grafico tal.png', bbox_inches='tight')
-                                #plt.show()
+
                                 margin=20
                             )
                         ]
@@ -284,6 +281,8 @@ def pagina():
     def t2p02(e):
         bs_t2p02.open = True
         grafico = dados2005_p15.grafico() #2005
+        #grafico = grafico2007_P15(dado2007_P15()) #2007
+
         bs_t2p02.update()
 
     bs_t2p02 = ft.BottomSheet(
@@ -315,8 +314,7 @@ def pagina():
                         controls = [
                             Container(
                                 ft.FilledButton(text = "Download", on_click=download),
-                                #plt.savefig('imagem do grafico tal.png', bbox_inches='tight')
-                                #plt.show()
+
                                 margin=20
                             )
                         ]
@@ -360,8 +358,7 @@ def pagina():
                         controls = [
                             Container(
                                 ft.FilledButton(text = "Download", on_click=download),
-                                #plt.savefig('imagem do grafico tal.png', bbox_inches='tight')
-                                #plt.show()
+
                                 margin=20
                             )
                         ]
@@ -404,8 +401,7 @@ def pagina():
                         controls = [
                             Container(
                                 ft.FilledButton(text = "Download", on_click=download),
-                                #plt.savefig('imagem do grafico tal.png', bbox_inches='tight')
-                                #plt.show()
+
                                 margin=20
                             )
                         ]
@@ -448,8 +444,7 @@ def pagina():
                         controls = [
                             Container(
                                 ft.FilledButton(text = "Download", on_click=download),
-                                #plt.savefig('imagem do grafico tal.png', bbox_inches='tight')
-                                #plt.show()
+
                                 margin=20
                             )
                         ]
@@ -461,7 +456,8 @@ def pagina():
     #06
     def t2p06(e):
         bs_t2p06.open = True
-        grafico = grafico = dados2005_p16.grafico() #2005
+        grafico = dados2005_p16.grafico() #2005
+        #grafico = grafico2007_P10(dado2007_P10()) #2007
         bs_t2p06.update()
 
     bs_t2p06 = ft.BottomSheet(
@@ -493,8 +489,7 @@ def pagina():
                         controls = [
                             Container(
                                 ft.FilledButton(text = "Download", on_click=download),
-                                #plt.savefig('imagem do grafico tal.png', bbox_inches='tight')
-                                #plt.show()
+
                                 margin=20
                             )
                         ]
@@ -506,7 +501,8 @@ def pagina():
     #07
     def t2p07(e):
         bs_t2p07.open = True
-        grafico = grafico = grafico2005_P17(dado2005_P17()) #2005 
+        grafico = grafico = grafico2005_P17(dado2005_P17()) #2005
+        #grafico = grafico2007_P13(dado2007_P13()) #2007
         bs_t2p07.update()
 
     bs_t2p07 = ft.BottomSheet(
@@ -538,8 +534,7 @@ def pagina():
                         controls = [
                             Container(
                                 ft.FilledButton(text = "Download", on_click=download),
-                                #plt.savefig('imagem do grafico tal.png', bbox_inches='tight')
-                                #plt.show()
+
                                 margin=20
                             )
                         ]
@@ -583,8 +578,7 @@ def pagina():
                         controls = [
                             Container(
                                 ft.FilledButton(text = "Download", on_click=download),
-                                #plt.savefig('imagem do grafico tal.png', bbox_inches='tight')
-                                #plt.show()
+
                                 margin=20
                             )
                         ]
@@ -628,8 +622,7 @@ def pagina():
                         controls = [
                             Container(
                                 ft.FilledButton(text = "Download", on_click=download),
-                                #plt.savefig('imagem do grafico tal.png', bbox_inches='tight')
-                                #plt.show()
+
                                 margin=20
                             )
                         ]
@@ -642,6 +635,7 @@ def pagina():
     def t2p10(e):
         bs_t2p10.open = True
         grafico = grafico2005_P11(dado2005_P11()) #2005
+        #grafico =  grafico2007_P9(dado2007_P9())
         bs_t2p10.update()
 
     bs_t2p10 = ft.BottomSheet(
@@ -673,8 +667,7 @@ def pagina():
                         controls = [
                             Container(
                                 ft.FilledButton(text = "Download", on_click=download),
-                                #plt.savefig('imagem do grafico tal.png', bbox_inches='tight')
-                                #plt.show()
+
                                 margin=20
                             )
                         ]
@@ -689,6 +682,7 @@ def pagina():
     def t3p01(e):
         bs_t3p01.open = True
         grafico = dados2005_p18.grafico() #2005
+        #grafico = grafico2007_P14(dado2007_P14()) #2007
         bs_t3p01.update()
 
     bs_t3p01 = ft.BottomSheet(
@@ -720,8 +714,7 @@ def pagina():
                         controls = [
                             Container(
                                 ft.FilledButton(text = "Download", on_click=download),
-                                #plt.savefig('imagem do grafico tal.png', bbox_inches='tight')
-                                #plt.show()
+
                                 margin=20
                             )
                         ]
@@ -764,8 +757,7 @@ def pagina():
                         controls = [
                             Container(
                                 ft.FilledButton(text = "Download", on_click=download),
-                                #plt.savefig('imagem do grafico tal.png', bbox_inches='tight')
-                                #plt.show()
+
                                 margin=20
                             )
                         ]
@@ -808,8 +800,7 @@ def pagina():
                         controls = [
                             Container(
                                 ft.FilledButton(text = "Download", on_click=download),
-                                #plt.savefig('imagem do grafico tal.png', bbox_inches='tight')
-                                #plt.show()
+
                                 margin=20
                             )
                         ]
@@ -852,8 +843,7 @@ def pagina():
                         controls = [
                             Container(
                                 ft.FilledButton(text = "Download", on_click=download),
-                                #plt.savefig('imagem do grafico tal.png', bbox_inches='tight')
-                                #plt.show()
+
                                 margin=20
                             )
                         ]
@@ -896,8 +886,7 @@ def pagina():
                         controls = [
                             Container(
                                 ft.FilledButton(text = "Download", on_click=download),
-                                #plt.savefig('imagem do grafico tal.png', bbox_inches='tight')
-                                #plt.show()
+
                                 margin=20
                             )
                         ]
@@ -912,6 +901,7 @@ def pagina():
     def t4p01(e):
         bs_t4p01.open = True
         grafico = dados2005_p4.grafico() #2005
+        #grafico = grafico2007_P5(dado2007_P5())#2007
         bs_t4p01.update()
 
     bs_t4p01 = ft.BottomSheet(
@@ -943,8 +933,7 @@ def pagina():
                         controls = [
                             Container(
                                 ft.FilledButton(text = "Download", on_click=download),
-                                #plt.savefig('imagem do grafico tal.png', bbox_inches='tight')
-                                #plt.show()
+
                                 margin=20
                             )
                         ]
@@ -988,8 +977,7 @@ def pagina():
                         controls = [
                             Container(
                                 ft.FilledButton(text = "Download", on_click=download),
-                                #plt.savefig('imagem do grafico tal.png', bbox_inches='tight')
-                                #plt.show()
+
                                 margin=20
                             )
                         ]
@@ -1032,8 +1020,7 @@ def pagina():
                         controls = [
                             Container(
                                 ft.FilledButton(text = "Download", on_click=download),
-                                #plt.savefig('imagem do grafico tal.png', bbox_inches='tight')
-                                #plt.show()
+
                                 margin=20
                             )
                         ]
@@ -1076,8 +1063,7 @@ def pagina():
                         controls = [
                             Container(
                                 ft.FilledButton(text = "Download", on_click=download),
-                                #plt.savefig('imagem do grafico tal.png', bbox_inches='tight')
-                                #plt.show()
+
                                 margin=20
                             )
                         ]
@@ -1120,8 +1106,7 @@ def pagina():
                         controls = [
                             Container(
                                 ft.FilledButton(text = "Download", on_click=download),
-                                #plt.savefig('imagem do grafico tal.png', bbox_inches='tight')
-                                #plt.show()
+
                                 margin=20
                             )
                         ]
@@ -1164,8 +1149,7 @@ def pagina():
                         controls = [
                             Container(
                                 ft.FilledButton(text = "Download", on_click=download),
-                                #plt.savefig('imagem do grafico tal.png', bbox_inches='tight')
-                                #plt.show()
+
                                 margin=20
                             )
                         ]
@@ -1208,8 +1192,7 @@ def pagina():
                         controls = [
                             Container(
                                 ft.FilledButton(text = "Download", on_click=download),
-                                #plt.savefig('imagem do grafico tal.png', bbox_inches='tight')
-                                #plt.show()
+
                                 margin=20
                             )
                         ]
@@ -1254,8 +1237,7 @@ def pagina():
                         controls = [
                             Container(
                                 ft.FilledButton(text = "Download", on_click=download),
-                                #plt.savefig('imagem do grafico tal.png', bbox_inches='tight')
-                                #plt.show()
+
                                 margin=20
                             )
                         ]
@@ -1299,8 +1281,7 @@ def pagina():
                         controls = [
                             Container(
                                 ft.FilledButton(text = "Download", on_click=download),
-                                #plt.savefig('imagem do grafico tal.png', bbox_inches='tight')
-                                #plt.show()
+
                                 margin=20
                             )
                         ]
@@ -1343,8 +1324,7 @@ def pagina():
                         controls = [
                             Container(
                                 ft.FilledButton(text = "Download", on_click=download),
-                                #plt.savefig('imagem do grafico tal.png', bbox_inches='tight')
-                                #plt.show()
+
                                 margin=20
                             )
                         ]
@@ -1387,8 +1367,7 @@ def pagina():
                         controls = [
                             Container(
                                 ft.FilledButton(text = "Download", on_click=download),
-                                #plt.savefig('imagem do grafico tal.png', bbox_inches='tight')
-                                #plt.show()
+
                                 margin=20
                             )
                         ]
