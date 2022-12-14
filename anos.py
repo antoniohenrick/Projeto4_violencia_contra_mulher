@@ -1,8 +1,6 @@
 import flet as ft
 from flet import Dropdown
 
-#opções de esolha de ano para cada pergunta
-
 ### TEMA 1###
 
 #01
@@ -35,9 +33,9 @@ def dpa01_02():
             border = "underline",
             text_size= 12,
             options = [ 
-            ft.dropdown.Option("2009"), 
+            #ft.dropdown.Option("2009"), ## Faltando nos dados
             ft.dropdown.Option("2011"), 
-            ft.dropdown.Option("2013"), 
+            #ft.dropdown.Option("2013"), ## Faltando dados
             ft.dropdown.Option("2015"), 
             ft.dropdown.Option("2017"), 
             ft.dropdown.Option("2019"), 
@@ -74,7 +72,7 @@ def dpa01_04():
             border = "underline",
             text_size= 12,
             options = [ 
-            ft.dropdown.Option("2009"), 
+            #ft.dropdown.Option("2009"), ## Falta dados
             ft.dropdown.Option("2011"), 
             ft.dropdown.Option("2013"), 
             ft.dropdown.Option("2015"), 
@@ -96,7 +94,7 @@ def dpa02_01():
             options = [
             ft.dropdown.Option("2005"),
             ft.dropdown.Option("2007"), 
-            ft.dropdown.Option("2009"), 
+            #ft.dropdown.Option("2009"), ##Falta dados
             ft.dropdown.Option("2011"), 
             ft.dropdown.Option("2013"), 
             ft.dropdown.Option("2015"), 
