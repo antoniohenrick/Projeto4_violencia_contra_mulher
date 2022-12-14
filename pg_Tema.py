@@ -8,8 +8,8 @@ from analises2007 import *
 from analises2009 import *
 from analises2011 import *
 from analises2013 import *
-#from analises2015 import *
-from analises2017 import *
+from analises2015 import *
+#from analises2017 import *
 #from analises2019 import *
 #from analises2021 import *
 
@@ -57,6 +57,8 @@ def pagina():
         #grafico = grafico2009_P01(dado2009_P01()) #2009
         #grafico = dados2011_p04.grafico() #2011
         #grafico = grafico2013_P04(dado2013_P04()) #2013
+        #grafico = dados2015_p04.grafico() #2015
+
         bs_t1p01.update()
 
     
@@ -102,6 +104,8 @@ def pagina():
     #02
     def t1p02(e):
         bs_t1p02.open = True
+        grafico = dados2011_p06.grafico() #2011
+        #grafico = dados2015_p06.grafico() #2015
         bs_t1p02.update()
 
 
@@ -150,6 +154,7 @@ def pagina():
         #grafico = grafico2009_P02(dado2009_P02()) #2009
         #grafico = dados2011_p05.grafico() #2011
         #grafico = grafico2013_P05(dado2013_P05()) #2013
+        #grafico = dados2015_p05.grafico() #2015
         bs_t1p03.update()
 
 
@@ -195,7 +200,8 @@ def pagina():
     def t1p04(e):
         bs_t1p04.open = True
         grafico = dados2011_p09.grafico() #2011    
-        #grafico = grafico2013_P09(dado2013_P09()) #2013    
+        #grafico = grafico2013_P09(dado2013_P09()) #2013
+        #grafico = dados2015_p05.grafico() #2015    
         bs_t1p04.update()
 
 
@@ -245,7 +251,8 @@ def pagina():
         bs_t2p01.open = True
         grafico = dados2005_p12.grafico() #2005
         #grafico = grafico2007_P14(dado2007_P14()) #2007 
-        #grafico = dados2011_p20.grafico() #2011        
+        #grafico = dados2011_p20.grafico() #2011    
+        #grafico = dados2015_p19.grafico() #2015    
         bs_t2p01.update()
 
     bs_t2p01 = ft.BottomSheet(
@@ -293,7 +300,8 @@ def pagina():
         #grafico = grafico2007_P15(dado2007_P15()) #2007
         #grafico = grafico2009_P25(dado2009_P25()) #2009
         #grafico = dados2011_p31.grafico() #2011 
-        #grafico = grafico2013_P30(dado2013_P30()) #2013   
+        #grafico = grafico2013_P30(dado2013_P30()) #2013  
+        #grafico = dados2015_p30.grafico() #2015   
         bs_t2p02.update()
 
     bs_t2p02 = ft.BottomSheet(
@@ -340,7 +348,8 @@ def pagina():
         grafico = grafico2007_P11(dado2007_P11()) #2007
         #grafico = grafico2009_P19(dado2009_P19()) #2009
         #grafico = dados2011_p24.grafico() #2011
-        #grafico = grafico2013_P23(dado2013_P23()) #2013   
+        #grafico = grafico2013_P23(dado2013_P23()) #2013 
+        #grafico = dados2015_p23.grafico() #2015   
         bs_t2p03.update()
 
     bs_t2p03 = ft.BottomSheet(
@@ -386,7 +395,8 @@ def pagina():
         bs_t2p04.open = True
         grafico = grafico2009_P13(dado2009_P13()) #2009
         #grafico = dados2011_p18.grafico() #2011 
-        #grafico = grafico2013_P17(dado2013_P17()) #2013  
+        #grafico = grafico2013_P17(dado2013_P17()) #2013 
+        #grafico = dados2015_p17.grafico() #2015  
         bs_t2p04.update()
 
     bs_t2p04 = ft.BottomSheet(
@@ -477,7 +487,8 @@ def pagina():
         #grafico = grafico2007_P10(dado2007_P10()) #2007
         #grafico = grafico2009_P18(dado2009_P18()) #2009
         #grafico = dados2011_p23.grafico() #2011 
-        #grafico = grafico2013_P22(dado2013_P22()) #2013  
+        #grafico = grafico2013_P22(dado2013_P22()) #2013
+        #grafico = dados2015_p22.grafico() #2015   
         bs_t2p06.update()
 
     bs_t2p06 = ft.BottomSheet(
@@ -526,6 +537,7 @@ def pagina():
         #grafico = grafico2009_P22(dado2009_P22()) #2009
         #grafico = grafico2011_P27(dado2011_P27()) #2011 
         #grafico = grafico2013_P26(dado2013_P26()) #2013 
+        #grafico = dados2015_p26.grafico() #2015 
         bs_t2p07.update()
 
     bs_t2p07 = ft.BottomSheet(
