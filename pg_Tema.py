@@ -3,8 +3,8 @@ from flet import (Text, Page,Row, Container, Column, LinearGradient, Icon, Dropd
 ButtonStyle, icons, animation, column, Alignment,alignment, RadialGradient, View, BottomSheet)
 
 #data
-#from analises2005 import *
-#from analises2007 import *
+from analises2005 import *
+from analises2007 import *
 #from analises2009 import *
 #from analises2011 import *
 #from analises2013 import *
@@ -24,8 +24,7 @@ matplotlib.use("svg")  #impede da janela de abrir
 
 def pagina():
 
-    fig, ax = plt.subplots()
-    grafico = grafico_P26(P26()),
+    fig, ax = plt.subplots()   
     
     
     def download(e):   
@@ -53,9 +52,10 @@ def pagina():
         Função para abrir o bottom sheet
         '''
         bs_t1p01.open = True
+        grafico = dados2005_p1.grafico() #2005
         bs_t1p01.update()
 
-
+    
     bs_t1p01 = ft.BottomSheet(            
             Row(
                 alignment= "start",
@@ -237,6 +237,7 @@ def pagina():
     #01
     def t2p01(e):
         bs_t2p01.open = True
+        grafico = dados2005_p12.grafico() #2005
         bs_t2p01.update()
 
     bs_t2p01 = ft.BottomSheet(
@@ -281,6 +282,7 @@ def pagina():
     #02
     def t2p02(e):
         bs_t2p02.open = True
+        grafico = dados2005_p15.grafico() #2005
         bs_t2p02.update()
 
     bs_t2p02 = ft.BottomSheet(
@@ -457,6 +459,7 @@ def pagina():
     #06
     def t2p06(e):
         bs_t2p06.open = True
+        grafico = dados2005_p16.grafico() #2005
         bs_t2p06.update()
 
     bs_t2p06 = ft.BottomSheet(
@@ -501,6 +504,7 @@ def pagina():
     #07
     def t2p07(e):
         bs_t2p07.open = True
+        grafico = grafico2005_P17(dado2005_P17()) #2005 
         bs_t2p07.update()
 
     bs_t2p07 = ft.BottomSheet(
@@ -633,6 +637,7 @@ def pagina():
     #10
     def t2p10(e):
         bs_t2p10.open = True
+        grafico = grafico2005_P11(dado2005_P11()) #2005
         bs_t2p10.update()
 
     bs_t2p10 = ft.BottomSheet(
@@ -679,6 +684,7 @@ def pagina():
     #01
     def t3p01(e):
         bs_t3p01.open = True
+        grafico = dados2005_p18.grafico() #2005
         bs_t3p01.update()
 
     bs_t3p01 = ft.BottomSheet(
@@ -901,6 +907,7 @@ def pagina():
     #01
     def t4p01(e):
         bs_t4p01.open = True
+        grafico = dados2005_p4.grafico() #2005
         bs_t4p01.update()
 
     bs_t4p01 = ft.BottomSheet(
