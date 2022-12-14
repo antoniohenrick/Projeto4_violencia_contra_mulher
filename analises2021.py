@@ -581,7 +581,6 @@ def P19():
   analise_final = {'Resposta' : perguntas, 'Total' : total, 'Percentual' : percentual}
   analise_final_df = pd.DataFrame(analise_final)
     
-  display(analise_final_df)
     
   return analise_final_df
 
