@@ -585,6 +585,7 @@ def pagina():
         #grafico = grafico2009_P16( dado2009_P16) #2009
         #grafico = dados2011_p21.grafico() #2011 
         #grafico = grafico2013_P20(dado2013_P20()) #2013 
+        #grafico = dados2015_p20.grafico() #2015 
         bs_t2p08.update()
 
     bs_t2p08 = ft.BottomSheet(
@@ -632,6 +633,7 @@ def pagina():
         #grafico = grafico2009_P21(dado2009_P21()) #2009
         #grafico = dados2011_p26.grafico() #2011 
         #grafico = grafico2013_P25(dado2013_P25()) #2013 
+        #grafico = dados2015_p25.grafico() #2015 
         bs_t2p09.update()
 
     bs_t2p09 = ft.BottomSheet(
@@ -676,10 +678,11 @@ def pagina():
     def t2p10(e):
         bs_t2p10.open = True
         grafico = grafico2005_P11(dado2005_P11()) #2005
-        #grafico =  grafico2007_P9(dado2007_P9()) #2007
-        #grafico =  grafico2009_P17(dado2009_P17()) #2009
-        #grafico =  grafico2011_P22(dado2011_P22()) #2011 
-        #grafico =  grafico2013_P21(dado2013_P21()) #2013 
+        #grafico = grafico2007_P9(dado2007_P9()) #2007
+        #grafico = grafico2009_P17(dado2009_P17()) #2009
+        #grafico = grafico2011_P22(dado2011_P22()) #2011 
+        #grafico = grafico2013_P21(dado2013_P21()) #2013 
+        #grafico = grafico2015_P21(dado2015_P21()) #2015 
         bs_t2p10.update()
 
     bs_t2p10 = ft.BottomSheet(
@@ -730,6 +733,7 @@ def pagina():
         #grafico = grafico2009_P24(dado2009_P24()) #2009
         #grafico = grafico2009_P29(dado2009_P17()) #2011
         #grafico = grafico2013_P28(dado2013_P28()) #2013
+        #grafico = dados2015_p28.grafico() #2015 
         bs_t3p01.update()
 
     bs_t3p01 = ft.BottomSheet(
@@ -774,7 +778,8 @@ def pagina():
     def t3p02(e):
         bs_t3p02.open = True
         grafico = dados2011_p07.grafico() #2011 
-        #grafico = grafico2013_P08(dado2013_P08()) #2013        
+        #grafico = grafico2013_P08(dado2013_P08()) #2013    
+        #grafico = dados2015_p08.grafico() #2015     
         bs_t3p02.update()
 
     bs_t3p02 = ft.BottomSheet(
@@ -905,7 +910,8 @@ def pagina():
     def t3p05(e):
         bs_t3p05.open = True
         grafico = dados2011_p32.grafico() #2011 
-        #grafico = grafico2013_P31(dado2013_P31()) #2013  
+        #grafico = grafico2013_P31(dado2013_P31()) #2013
+        #grafico = dados2015_p31.grafico() #2015    
         bs_t3p05.update()
 
     bs_t3p05 = ft.BottomSheet(
@@ -955,9 +961,8 @@ def pagina():
         #grafico = grafico2007_P5(dado2007_P5())#2007
         #grafico = grafico2009_P07(dado2009_P07()) #2009
         #grafico = dados2011_p10.grafico() #2011 
-        #grafico = grafico2013_P10(dado2013_P10()) #2013 
-        
-
+        #grafico = grafico2013_P10(dado2013_P10()) #2013      
+        #grafico = dados2015_p10.grafico() #2015  
         bs_t4p01.update()
 
     bs_t4p01 = ft.BottomSheet(
@@ -1049,6 +1054,7 @@ def pagina():
         grafico = grafico2009_P08(dado2009_P08()) #2009
         #grafico = dados2011_p11.grafico() #2011
         #grafico = grafico2013_P11(dado2013_P11()) #2013 
+        #grafico = dados2015_p11.grafico() #2015  
         bs_t4p03.update()
 
     bs_t4p03 = ft.BottomSheet(
@@ -1093,6 +1099,7 @@ def pagina():
     def t4p04(e):
         bs_t4p04.open = True
         grafico = dados2011_p12.grafico() #2011
+        #grafico = dados2015_p12.grafico() #2015
         bs_t4p04.update()
 
     bs_t4p04 = ft.BottomSheet(
@@ -1360,6 +1367,7 @@ def pagina():
         grafico = grafico2009_P11(dado2009_P11()) #2009
         #grafico = dados2011_p14.grafico() #2011
         #grafico = grafico2013_P07(dado2013_P07()) #2013
+        #grafico = dados2015_p07.grafico() #2015
         bs_t5p03.update()
 
     bs_t5p03 = ft.BottomSheet(
@@ -1405,6 +1413,7 @@ def pagina():
         bs_t5p04.open = True
         grafico = dados2011_p16.grafico() #2011
         #grafico = grafico2013_P15(dado2013_P15()) #2013
+        #grafico = dados2015_p15.grafico() #2015
         bs_t5p04.update()
 
     bs_t5p04 = ft.BottomSheet(
